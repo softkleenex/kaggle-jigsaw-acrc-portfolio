@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+  "lora_alpha": 32,
+  "r": 16,
+  "target_modules": ["q_proj", "v_proj"],
+  "task_type": "CAUSAL_LM",
+  "inference_mode": true,
+  "lora_dropout": 0.05,
+
+  "_note": "Config from mahmoudmohamed/reddit-4b-think dataset",
+  "_issue": "Dataset name suggests training on Qwen 4B, but config says 1.5B - potential mismatch",
+  "_source": "Public Kaggle dataset: softkleenex/mahmoudmohamed-lora-adapter",
+  "_date_discovered": "2024-10-21"
+}
