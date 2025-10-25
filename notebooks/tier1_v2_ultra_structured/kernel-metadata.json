@@ -1,0 +1,16 @@
+{
+  "id": "softkleenex/qwen-tier1-v2",
+  "title": "Qwen Tier1 v2 Ultra Structured",
+  "code_file": "qwen_tier1_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "softkleenex/mahmoudmohamed-lora-adapter"
+  ],
+  "competition_sources": ["jigsaw-agile-community-rules"],
+  "kernel_sources": []
+}
