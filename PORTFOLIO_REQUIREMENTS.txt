@@ -1,0 +1,71 @@
+# Kaggle Jigsaw ACRC - Portfolio Requirements
+# Competition: https://www.kaggle.com/competitions/jigsaw-agile-community-rules
+# Author: LSJ
+# Date: October 2024
+
+# ==============================================================================
+# Core ML Libraries
+# ==============================================================================
+transformers==4.44.2  # HuggingFace Transformers (Qwen, DeBERTa support)
+peft==0.12.0  # Parameter-Efficient Fine-Tuning (LoRA implementation)
+torch==2.4.0  # PyTorch (CUDA 11.8 compatible)
+accelerate==0.33.0  # HuggingFace Accelerate (multi-GPU, mixed precision)
+
+# ==============================================================================
+# Data Processing
+# ==============================================================================
+pandas==2.2.0  # Data manipulation
+numpy==1.26.4  # Numerical computing (Note: 1.x for compatibility)
+scikit-learn==1.5.0  # Metrics, utilities
+
+# ==============================================================================
+# Utilities
+# ==============================================================================
+tqdm==4.66.0  # Progress bars
+regex==2024.5.15  # Advanced regex for parsing
+
+# ==============================================================================
+# Optional: For DeBERTa Baseline
+# ==============================================================================
+# datasets==2.19.0  # HuggingFace Datasets
+# tokenizers==0.19.1  # Fast tokenizers
+# sentencepiece==0.2.0  # Tokenizer for some models
+
+# ==============================================================================
+# Environment Notes
+# ==============================================================================
+# Python: 3.10+
+# CUDA: 11.8 (for GPU support)
+# GPU: Tesla P100 16GB or similar (minimum 12GB VRAM for FP16 inference)
+# RAM: 16GB minimum, 32GB recommended
+# Disk: 10GB for models + data
+
+# ==============================================================================
+# Kaggle-Specific Notes
+# ==============================================================================
+# These versions match Kaggle's GPU environment as of October 2024
+# For local reproduction, you may need to adjust versions
+# Install with: pip install -r PORTFOLIO_REQUIREMENTS.txt
+
+# ==============================================================================
+# Known Compatibility Issues
+# ==============================================================================
+# NumPy 2.x: NOT compatible with some training libraries (vllm, deepspeed)
+# Solution: Use NumPy 1.26.4 or inference-only approach
+# See FAILURE_ANALYSIS.md for details on NumPy incompatibility
+
+# ==============================================================================
+# Installation Instructions
+# ==============================================================================
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#
+# 2. Install PyTorch with CUDA support (if using GPU):
+#    pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+#
+# 3. Install other requirements:
+#    pip install -r PORTFOLIO_REQUIREMENTS.txt
+#
+# 4. Verify installation:
+#    python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
