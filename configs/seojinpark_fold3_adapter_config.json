@@ -1,0 +1,19 @@
+{
+  "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct-GPTQ-Int4",
+  "lora_alpha": 16,
+  "r": 8,
+  "target_modules": ["q_proj", "v_proj", "k_proj", "o_proj"],
+  "task_type": "CAUSAL_LM",
+  "inference_mode": false,
+  "lora_dropout": 0.1,
+
+  "_note": "Config from seojinpark fold3 adapter - K-fold cross-validation approach",
+  "_advantages": [
+    "Explicitly matches Qwen 1.5B-GPTQ-Int4 base model",
+    "Includes training artifacts (train.pkl 5.9MB, val.pkl 726KB)",
+    "Part of K-fold ensemble strategy (fold0-fold4 available)"
+  ],
+  "_source": "Public Kaggle dataset from seojinpark",
+  "_date_discovered": "2024-10-22",
+  "_status": "Downloaded but not tested (competition ended)"
+}
