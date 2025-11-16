@@ -1,29 +1,62 @@
-# Kaggle Jigsaw ACRC: 체계적 디버깅으로 배우는 LLM 어댑터 호환성 분석
+<div align="center">
 
-> **"실패를 통해 배우는 프로덕션 ML 디버깅 능력 증명"**
+# 🔍 Kaggle Jigsaw ACRC: LLM 어댑터 호환성 디버깅
 
-**🇰🇷 한국어 버전** | [🇺🇸 English Version](README_EN.md)
+> **"메달보다 중요한 건 체계적 문제 해결 능력"**
+> 한국 대학생이 5일간 투자해 배운 프로덕션 ML 디버깅 케이스 스터디
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.4-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/🤗_Transformers-4.44-FFD21E?style=for-the-badge)](https://huggingface.co/docs/transformers)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/jigsaw-agile-community-rules)
+
+**🏆 최종 순위: 1,121 / 2,444팀 (상위 46%)** | **📊 점수: 0.904 ROC-AUC**
+
+[📖 실패 분석 보기](실패분석.md) • [💻 코드 & 재현](#코드-및-재현) • [🇺🇸 English](README_EN.md)
+
+</div>
 
 ---
 
-## 🎯 프로젝트 한 줄 정의
+## 🎯 프로젝트 핵심
 
-Kaggle LLM 대회에서 발생한 **LoRA 어댑터 호환성 문제**를 가설 기반 디버깅으로 분석하고, 프로덕션 ML 시스템에서 적용 가능한 교훈을 도출한 **체계적 문제 해결 케이스 스터디**입니다.
+**LoRA 어댑터 호환성 버그를 가설 기반 디버깅으로 분석**하고,
+프로덕션 ML 시스템에 적용 가능한 검증 체크리스트를 확립한 **체계적 문제 해결 케이스 스터디**입니다.
 
 ---
 
-## 📌 한눈에 보기
+## 📌 프로젝트 요약
 
-| 항목 | 내용 |
-|------|------|
-| **대회** | [Kaggle - Jigsaw 커뮤니티 규칙 분류](https://www.kaggle.com/competitions/jigsaw-agile-community-rules) |
-| **참가 기간** | 2024년 10월 20일 ~ 24일 (5일간) |
-| **투자 시간** | 약 20시간 |
-| **최종 순위** | 1,121위 / 2,444팀 (상위 46%) |
-| **최종 점수** | 0.904 ROC-AUC (DeBERTa 베이스라인) |
-| **메달 획득** | ❌ 실패 (목표: 0.920+ Bronze) |
-| **기술 스택** | Python, PyTorch, Transformers, PEFT/LoRA, Qwen 2.5 1.5B |
-| **핵심 성과** | ✅ **2번의 실패를 체계적으로 분석**<br>✅ **가설 기반 근본 원인 규명 (80% 신뢰도)**<br>✅ **프로덕션 적용 가능한 검증 체크리스트 확립** |
+<table>
+<tr>
+<td width="25%"><b>🎯 대회</b></td>
+<td>Kaggle Jigsaw - 커뮤니티 규칙 위반 분류 (이진 분류)</td>
+</tr>
+<tr>
+<td><b>⏱️ 기간</b></td>
+<td>2024년 10월 20-24일 (5일, 총 20시간 투자)</td>
+</tr>
+<tr>
+<td><b>👨‍💻 역할</b></td>
+<td>개인 프로젝트 (Solo) - 대학생 개인 포트폴리오</td>
+</tr>
+<tr>
+<td><b>🏅 최종 결과</b></td>
+<td><b>1,121위 / 2,444팀 (상위 46%)</b><br>0.904 ROC-AUC (메달 실패: Bronze 0.920 필요, gap +0.016)</td>
+</tr>
+<tr>
+<td><b>💡 핵심 성과</b></td>
+<td>
+✅ <b>LoRA 어댑터 호환성 버그 체계적 분석</b><br>
+✅ <b>가설 기반 디버깅으로 근본 원인 규명 (80% 신뢰도)</b><br>
+✅ <b>프로덕션 적용 가능한 검증 체크리스트 확립</b>
+</td>
+</tr>
+<tr>
+<td><b>🛠️ 기술 스택</b></td>
+<td>DeBERTa-v3, Qwen 2.5, LoRA/PEFT, PyTorch, Transformers, Kaggle GPU</td>
+</tr>
+</table>
 
 ---
 
@@ -91,6 +124,84 @@ Qwen 2.5 1.5B-Instruct 모델에 공개 LoRA 어댑터 적용 시, **모든 예�
 ### 플랫폼
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+
+---
+
+## 🏆 핵심 기술 성과 (Technical Highlights)
+
+### 1️⃣ 체계적 디버깅: LoRA 어댑터 호환성 문제 근본 원인 규명
+
+#### Challenge (문제)
+공개 LoRA 어댑터 적용 시 **모든 예측값이 0.0으로 출력**. 프롬프트를 개선해도 (파싱 성공률 100%) 여전히 동일한 문제 발생.
+
+#### Solution (해결 과정)
+가설 기반 디버깅으로 체계적 접근:
+1. **3가지 가설 수립** (베이스 모델 불일치 80%, 이진 분류 60%, 프롬프트 40%)
+2. **증거 수집** (config 분석, 데이터셋 이름, 학습 아티팩트, 출력 분포)
+3. **근본 원인 규명** (4B용 어댑터를 1.5B 모델에 로드 → weight dimension 불일치)
+
+```python
+# 검증 체크리스트 (실무 적용 가능)
+def validate_adapter_compatibility(adapter_path, base_model):
+    checks = {
+        "config_matches": verify_config(adapter_path, base_model),
+        "dataset_name_consistent": check_naming_conflict(adapter_path),
+        "has_training_artifacts": os.path.exists(f"{adapter_path}/train.pkl"),
+        "output_diversity": test_distribution(adapter_path) > 0.05,
+    }
+    return all(checks.values())
+```
+
+#### Impact (결과 & 실무 적용)
+- ✅ Config 파일만 믿지 않는 **검증 체크리스트** 확립
+- ✅ 프로덕션 CI/CD 파이프라인에 적용 가능
+- ✅ 외부 모델 통합 시 자동화된 호환성 검증 프로세스
+
+**→ [상세 분석 보기](실패분석.md#근본-원인-최종-결론)**
+
+---
+
+### 2️⃣ Time-boxing으로 분석 마비 방지 & 우선순위 결정
+
+#### Challenge (문제)
+제한된 시간 (총 20시간, 5일)에 여러 접근법 시도 필요. 무한 디버깅에 빠지면 다른 시도 불가능.
+
+#### Solution (해결 과정)
+**2시간 Time-boxing Rule** 적용:
+- Tier 1 v1: 2시간 → 실패 → 30분 분석 → Pivot
+- Tier 1 v2: 2시간 → 실패 → 30분 분석 → 근본 원인 파악
+- 명확한 기준: "다음 방향이 보이지 않으면 즉시 pivot"
+
+#### Impact (결과 & 실무 적용)
+- ✅ 총 5시간에 2번 시도 + 근본 원인 규명
+- ✅ Tunnel vision (프롬프트만 계속 수정) 방지
+- ✅ **대학생 현실**: 학기 중 병행하며 효율적 시간 관리 연습
+
+---
+
+### 3️⃣ 단일 지표의 함정: 분포 모니터링의 중요성
+
+#### Challenge (문제)
+파싱 성공률 100%를 달성했지만, 여전히 모든 예측값이 0.0. "성공" 지표가 실제 문제를 숨김.
+
+#### Solution (해결 과정)
+출력 **분포 모니터링** 추가:
+```python
+# ❌ 단일 지표만 보면 놓침
+assert parsing_success_rate == 1.0  # ✅ 100% 성공!
+
+# ✅ 분포까지 확인
+predictions = [0.0, 0.0, 0.0, 0.0, 0.0, ...]
+assert np.std(predictions) > 0.05, "Too uniform!"  # ❌ 실패!
+assert np.max(predictions) > 0.3, "No high scores!"  # ❌ 실패!
+```
+
+#### Impact (결과 & 실무 적용)
+- ✅ 프로덕션 모니터링에 분포 통계 (mean, std, min, max) 추가 필수
+- ✅ A/B 테스트 시 단일 지표 + 분포 변화 동시 확인
+- ✅ Degenerate output 조기 탐지 가능
+
+**→ [프로덕션 시나리오 보기](실패분석.md#프로덕션-환경에서-동일한-패턴)**
 
 ---
 
