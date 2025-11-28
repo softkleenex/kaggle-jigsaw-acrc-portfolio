@@ -1,0 +1,61 @@
+[{"stream_name":"stderr","time":8.426789919,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.426885643,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.426891102,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.426894316,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.139086656,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.139131575,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.139137864,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.139142527,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":21.205673964,"data":"Libraries loaded successfully!\n"}
+,{"stream_name":"stdout","time":21.325825167,"data":"Train shape: (2029, 9)\n"}
+,{"stream_name":"stdout","time":21.325856519,"data":"Test shape: (10, 8)\n"}
+,{"stream_name":"stdout","time":21.32586283,"data":"Sample submission shape: (10, 2)\n"}
+,{"stream_name":"stdout","time":21.361438225,"data":"Training samples: 2029\n"}
+,{"stream_name":"stdout","time":21.361468887,"data":"Test samples: 10\n"}
+,{"stream_name":"stdout","time":22.182657677999998,"data":"TF-IDF features: 10000\n"}
+,{"stream_name":"stdout","time":22.383955804,"data":"\n"}
+,{"stream_name":"stdout","time":22.383991637,"data":"Fold 1/5\n"}
+,{"stream_name":"stdout","time":36.214721578,"data":"Fold 1 AUC: 0.675607\n"}
+,{"stream_name":"stdout","time":36.214759883,"data":"\n"}
+,{"stream_name":"stdout","time":36.214764645,"data":"Fold 2/5\n"}
+,{"stream_name":"stdout","time":50.239492791,"data":"Fold 2 AUC: 0.604660\n"}
+,{"stream_name":"stdout","time":50.239534788,"data":"\n"}
+,{"stream_name":"stdout","time":50.23954201,"data":"Fold 3/5\n"}
+,{"stream_name":"stdout","time":64.133093553,"data":"Fold 3 AUC: 0.625097\n"}
+,{"stream_name":"stdout","time":64.133131171,"data":"\n"}
+,{"stream_name":"stdout","time":64.133139273,"data":"Fold 4/5\n"}
+,{"stream_name":"stdout","time":77.745447354,"data":"Fold 4 AUC: 0.640279\n"}
+,{"stream_name":"stdout","time":77.745483531,"data":"\n"}
+,{"stream_name":"stdout","time":77.745490162,"data":"Fold 5/5\n"}
+,{"stream_name":"stdout","time":91.78758337,"data":"Fold 5 AUC: 0.622750\n"}
+,{"stream_name":"stdout","time":91.787618207,"data":"\n"}
+,{"stream_name":"stdout","time":91.787625815,"data":"==================================================\n"}
+,{"stream_name":"stdout","time":91.787632699,"data":"Overall CV AUC: 0.633542\n"}
+,{"stream_name":"stdout","time":91.787639308,"data":"Mean CV AUC: 0.633678 (+/- 0.023819)\n"}
+,{"stream_name":"stdout","time":91.787645578,"data":"==================================================\n"}
+,{"stream_name":"stdout","time":91.821911746,"data":"Submission file created successfully!\n"}
+,{"stream_name":"stdout","time":91.82196269,"data":"\n"}
+,{"stream_name":"stdout","time":91.82197063,"data":"Submission shape: (10, 2)\n"}
+,{"stream_name":"stdout","time":91.821977257,"data":"\n"}
+,{"stream_name":"stdout","time":91.821984014,"data":"First 5 rows:\n"}
+,{"stream_name":"stdout","time":91.821990006,"data":"   row_id  rule_violation\n"}
+,{"stream_name":"stdout","time":91.821996202,"data":"0    2029        0.000424\n"}
+,{"stream_name":"stdout","time":91.822021076,"data":"1    2030        0.112162\n"}
+,{"stream_name":"stdout","time":91.82202603,"data":"2    2031        0.832303\n"}
+,{"stream_name":"stdout","time":91.822030174,"data":"3    2032        0.852224\n"}
+,{"stream_name":"stdout","time":91.822034186,"data":"4    2033        0.994167\n"}
+,{"stream_name":"stdout","time":91.822037545,"data":"\n"}
+,{"stream_name":"stdout","time":91.822040287,"data":"Prediction statistics:\n"}
+,{"stream_name":"stdout","time":91.822043127,"data":"  Min: 0.000424\n"}
+,{"stream_name":"stdout","time":91.822045972,"data":"  Max: 0.999838\n"}
+,{"stream_name":"stdout","time":91.822048758,"data":"  Mean: 0.499188\n"}
+,{"stream_name":"stdout","time":91.822051617,"data":"  Median: 0.472232\n"}
+,{"stream_name":"stderr","time":96.739436545,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":96.739480583,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":96.789236567,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":97.151044409,"data":"[NbConvertApp] Writing 13494 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":100.493029143,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":100.493080545,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":100.528067577,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":101.556997395,"data":"[NbConvertApp] Writing 300177 bytes to __results__.html\n"}
+]

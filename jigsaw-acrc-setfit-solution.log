@@ -1,0 +1,118 @@
+[{"stream_name":"stderr","time":10.058683994,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.058781803,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.058790457,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.058796065,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.922518327,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.922561732,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.922568729,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.922573462,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.480871104,"data":"Installing...\n"}
+,{"stream_name":"stdout","time":24.326970507,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 MB 4.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.509352835,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 75.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.530733198,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 MB 4.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.530771794,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 75.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.779216107,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 62.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.827670854,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.7/883.7 kB 30.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.981266278,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 62.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":24.981299739,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.7/883.7 kB 30.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":33.116081523,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 2.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":33.319081814,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 2.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.869873271,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 7.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.072909955,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 7.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.751996918,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 16.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.955023262,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 16.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":38.312003588,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.9/127.9 MB 11.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":38.514651345,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.9/127.9 MB 11.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":40.950566473,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 7.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.153331944,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 7.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.571771757,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 19.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.774600245,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 19.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":42.447447017,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 564.3/564.3 kB 648.4 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":42.650240159,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 564.3/564.3 kB 648.4 kB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":97.548869696,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":97.548959995,"data":"datasets 4.1.1 requires pyarrow\u003e=21.0.0, but you have pyarrow 19.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.548973548,"data":"libcugraph-cu12 25.6.0 requires libraft-cu12==25.6.*, but you have libraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.54905593,"data":"gradio 5.38.1 requires pydantic\u003c2.12,\u003e=2.0, but you have pydantic 2.12.0a1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.549291802,"data":"pylibcugraph-cu12 25.6.0 requires pylibraft-cu12==25.6.*, but you have pylibraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.549306562,"data":"pylibcugraph-cu12 25.6.0 requires rmm-cu12==25.6.*, but you have rmm-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.75841436,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":97.758463398,"data":"datasets 4.1.1 requires pyarrow\u003e=21.0.0, but you have pyarrow 19.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.75847158,"data":"libcugraph-cu12 25.6.0 requires libraft-cu12==25.6.*, but you have libraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.758477775,"data":"gradio 5.38.1 requires pydantic\u003c2.12,\u003e=2.0, but you have pydantic 2.12.0a1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.758501252,"data":"pylibcugraph-cu12 25.6.0 requires pylibraft-cu12==25.6.*, but you have pylibraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.758504828,"data":"pylibcugraph-cu12 25.6.0 requires rmm-cu12==25.6.*, but you have rmm-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":98.219305786,"data":"Done!\n"}
+,{"stream_name":"stderr","time":125.990772792,"data":"2025-10-13 13:30:32.679032: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n"}
+,{"stream_name":"stderr","time":125.991485696,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":125.991517695,"data":"E0000 00:00:1760362232.975947      13 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n"}
+,{"stream_name":"stderr","time":125.991527256,"data":"E0000 00:00:1760362233.060530      13 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"}
+,{"stream_name":"stderr","time":126.194272158,"data":"2025-10-13 13:30:32.679032: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n"}
+,{"stream_name":"stderr","time":126.194310346,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":126.194318082,"data":"E0000 00:00:1760362232.975947      13 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n"}
+,{"stream_name":"stderr","time":126.194325183,"data":"E0000 00:00:1760362233.060530      13 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"}
+,{"stream_name":"stdout","time":146.466652723,"data":"OK\n"}
+,{"stream_name":"stdout","time":146.66401499,"data":"Loading data...\n"}
+,{"stream_name":"stderr","time":150.398369089,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":150.39840292,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":150.398411457,"data":"  File \"/usr/local/lib/python3.11/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":150.398422152,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":150.398531564,"data":"  File \"/usr/local/lib/python3.11/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":150.398683895,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":150.399188586,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":150.399212094,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":150.399219585,"data":"Exception encountered at \"In [3]\":\n"}
+,{"stream_name":"stderr","time":150.399226274,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":150.399232026,"data":"FileNotFoundError                         Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":150.399238116,"data":"/tmp/ipykernel_13/2823084309.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":150.399243763,"data":"      2 print(\"Loading data...\")\n"}
+,{"stream_name":"stderr","time":150.399266611,"data":"      3 DATA_PATH = '/kaggle/input/jigsaw-agile-community-rules-classification/'\n"}
+,{"stream_name":"stderr","time":150.399271721,"data":"----\u003e 4 train = pd.read_csv(DATA_PATH + 'train.csv')\n"}
+,{"stream_name":"stderr","time":150.399275592,"data":"      5 test = pd.read_csv(DATA_PATH + 'test.csv')\n"}
+,{"stream_name":"stderr","time":150.399279786,"data":"      6 print(f\"Train: {len(train)}, Test: {len(test)}\")\n"}
+,{"stream_name":"stderr","time":150.399284264,"data":"\n"}
+,{"stream_name":"stderr","time":150.399290854,"data":"/usr/local/lib/python3.11/dist-packages/pandas/io/parsers/readers.py in read_csv(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)\n"}
+,{"stream_name":"stderr","time":150.399300243,"data":"   1024     kwds.update(kwds_defaults)\n"}
+,{"stream_name":"stderr","time":150.399304531,"data":"   1025 \n"}
+,{"stream_name":"stderr","time":150.399308429,"data":"-\u003e 1026     return _read(filepath_or_buffer, kwds)\n"}
+,{"stream_name":"stderr","time":150.399312852,"data":"   1027 \n"}
+,{"stream_name":"stderr","time":150.39931645,"data":"   1028 \n"}
+,{"stream_name":"stderr","time":150.39932058,"data":"\n"}
+,{"stream_name":"stderr","time":150.399324441,"data":"/usr/local/lib/python3.11/dist-packages/pandas/io/parsers/readers.py in _read(filepath_or_buffer, kwds)\n"}
+,{"stream_name":"stderr","time":150.399328628,"data":"    618 \n"}
+,{"stream_name":"stderr","time":150.399332634,"data":"    619     # Create the parser.\n"}
+,{"stream_name":"stderr","time":150.399337154,"data":"--\u003e 620     parser = TextFileReader(filepath_or_buffer, **kwds)\n"}
+,{"stream_name":"stderr","time":150.399341676,"data":"    621 \n"}
+,{"stream_name":"stderr","time":150.3993457,"data":"    622     if chunksize or iterator:\n"}
+,{"stream_name":"stderr","time":150.399350071,"data":"\n"}
+,{"stream_name":"stderr","time":150.399365017,"data":"/usr/local/lib/python3.11/dist-packages/pandas/io/parsers/readers.py in __init__(self, f, engine, **kwds)\n"}
+,{"stream_name":"stderr","time":150.399369491,"data":"   1618 \n"}
+,{"stream_name":"stderr","time":150.399373761,"data":"   1619         self.handles: IOHandles | None = None\n"}
+,{"stream_name":"stderr","time":150.399378697,"data":"-\u003e 1620         self._engine = self._make_engine(f, self.engine)\n"}
+,{"stream_name":"stderr","time":150.399383326,"data":"   1621 \n"}
+,{"stream_name":"stderr","time":150.399387194,"data":"   1622     def close(self) -\u003e None:\n"}
+,{"stream_name":"stderr","time":150.399391571,"data":"\n"}
+,{"stream_name":"stderr","time":150.399396582,"data":"/usr/local/lib/python3.11/dist-packages/pandas/io/parsers/readers.py in _make_engine(self, f, engine)\n"}
+,{"stream_name":"stderr","time":150.399401297,"data":"   1878                 if \"b\" not in mode:\n"}
+,{"stream_name":"stderr","time":150.399406054,"data":"   1879                     mode += \"b\"\n"}
+,{"stream_name":"stderr","time":150.3994102,"data":"-\u003e 1880             self.handles = get_handle(\n"}
+,{"stream_name":"stderr","time":150.399414557,"data":"   1881                 f,\n"}
+,{"stream_name":"stderr","time":150.399430782,"data":"   1882                 mode,\n"}
+,{"stream_name":"stderr","time":150.399435155,"data":"\n"}
+,{"stream_name":"stderr","time":150.399439235,"data":"/usr/local/lib/python3.11/dist-packages/pandas/io/common.py in get_handle(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)\n"}
+,{"stream_name":"stderr","time":150.399443863,"data":"    871         if ioargs.encoding and \"b\" not in ioargs.mode:\n"}
+,{"stream_name":"stderr","time":150.39944805,"data":"    872             # Encoding\n"}
+,{"stream_name":"stderr","time":150.399452374,"data":"--\u003e 873             handle = open(\n"}
+,{"stream_name":"stderr","time":150.399457146,"data":"    874                 handle,\n"}
+,{"stream_name":"stderr","time":150.399461654,"data":"    875                 ioargs.mode,\n"}
+,{"stream_name":"stderr","time":150.399465911,"data":"\n"}
+,{"stream_name":"stderr","time":150.399469831,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/jigsaw-agile-community-rules-classification/train.csv'\n"}
+,{"stream_name":"stderr","time":150.399474251,"data":"\n"}
+,{"stream_name":"stderr","time":154.816625129,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":154.816670809,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":154.873956828,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":155.27490803,"data":"[NbConvertApp] Writing 22716 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":159.176226732,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":159.176282085,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":159.220510329,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":160.356873225,"data":"[NbConvertApp] Writing 322855 bytes to __results__.html\n"}
+]

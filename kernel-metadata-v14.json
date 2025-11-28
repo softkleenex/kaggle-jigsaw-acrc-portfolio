@@ -1,0 +1,13 @@
+{
+  "id": "softkleenex/jigsaw-v14-advanced-feature-engineering",
+  "title": "Jigsaw v14 Advanced Feature Engineering (CV 0.8302)",
+  "code_file": "kaggle_v14_feature_engineering.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["jigsaw-agile-community-rules"],
+  "competition_sources": ["jigsaw-agile-community-rules"],
+  "kernel_sources": []
+}

@@ -1,0 +1,83 @@
+
+======================================================================
+JIGSAW ACRC - FEATURE ENGINEERING QUICKSTART
+======================================================================
+
+Loading data...
+Train shape: (2029, 9)
+Test shape: (10, 8)
+
+======================================================================
+CREATING ALL FEATURES
+======================================================================
+Creating semantic similarity features...
+Batches:   0%|          | 0/64 [00:00<?, ?it/s]Batches:   2%|▏         | 1/64 [00:00<00:29,  2.17it/s]Batches:   6%|▋         | 4/64 [00:00<00:06,  8.60it/s]Batches:  12%|█▎        | 8/64 [00:00<00:03, 15.50it/s]Batches:  19%|█▉        | 12/64 [00:00<00:02, 21.36it/s]Batches:  28%|██▊       | 18/64 [00:00<00:01, 30.61it/s]Batches:  39%|███▉      | 25/64 [00:01<00:00, 40.26it/s]Batches:  50%|█████     | 32/64 [00:01<00:00, 47.94it/s]Batches:  66%|██████▌   | 42/64 [00:01<00:00, 60.82it/s]Batches:  81%|████████▏ | 52/64 [00:01<00:00, 70.26it/s]Batches: 100%|██████████| 64/64 [00:01<00:00, 81.31it/s]Batches: 100%|██████████| 64/64 [00:01<00:00, 44.14it/s]
+Batches:   0%|          | 0/64 [00:00<?, ?it/s]Batches:   6%|▋         | 4/64 [00:00<00:01, 37.57it/s]Batches:  12%|█▎        | 8/64 [00:00<00:01, 38.59it/s]Batches:  20%|██        | 13/64 [00:00<00:01, 42.64it/s]Batches:  30%|██▉       | 19/64 [00:00<00:00, 47.03it/s]Batches:  41%|████      | 26/64 [00:00<00:00, 53.22it/s]Batches:  53%|█████▎    | 34/64 [00:00<00:00, 61.05it/s]Batches:  69%|██████▉   | 44/64 [00:00<00:00, 71.29it/s]Batches:  88%|████████▊ | 56/64 [00:00<00:00, 86.02it/s]Batches: 100%|██████████| 64/64 [00:00<00:00, 69.70it/s]
+Batches:   0%|          | 0/64 [00:00<?, ?it/s]Batches:   6%|▋         | 4/64 [00:00<00:01, 38.77it/s]Batches:  12%|█▎        | 8/64 [00:00<00:01, 37.30it/s]Batches:  20%|██        | 13/64 [00:00<00:01, 40.04it/s]Batches:  30%|██▉       | 19/64 [00:00<00:00, 47.08it/s]Batches:  41%|████      | 26/64 [00:00<00:00, 53.51it/s]Batches:  53%|█████▎    | 34/64 [00:00<00:00, 62.03it/s]Batches:  69%|██████▉   | 44/64 [00:00<00:00, 72.11it/s]Batches:  86%|████████▌ | 55/64 [00:00<00:00, 83.50it/s]Batches: 100%|██████████| 64/64 [00:00<00:00, 69.85it/s]
+Batches:   0%|          | 0/64 [00:00<?, ?it/s]Batches:   6%|▋         | 4/64 [00:00<00:01, 33.23it/s]Batches:  14%|█▍        | 9/64 [00:00<00:01, 37.20it/s]Batches:  25%|██▌       | 16/64 [00:00<00:00, 48.89it/s]Batches:  38%|███▊      | 24/64 [00:00<00:00, 58.54it/s]Batches:  53%|█████▎    | 34/64 [00:00<00:00, 71.00it/s]Batches:  69%|██████▉   | 44/64 [00:00<00:00, 79.50it/s]Batches:  86%|████████▌ | 55/64 [00:00<00:00, 87.92it/s]Batches: 100%|██████████| 64/64 [00:00<00:00, 75.41it/s]
+Batches:   0%|          | 0/64 [00:00<?, ?it/s]Batches:   6%|▋         | 4/64 [00:00<00:01, 32.81it/s]Batches:  14%|█▍        | 9/64 [00:00<00:01, 40.16it/s]Batches:  25%|██▌       | 16/64 [00:00<00:00, 50.36it/s]Batches:  38%|███▊      | 24/64 [00:00<00:00, 59.78it/s]Batches:  52%|█████▏    | 33/64 [00:00<00:00, 69.41it/s]Batches:  67%|██████▋   | 43/64 [00:00<00:00, 77.43it/s]Batches:  86%|████████▌ | 55/64 [00:00<00:00, 88.03it/s]Batches: 100%|██████████| 64/64 [00:00<00:00, 76.30it/s]
+Created 11 semantic features
+Creating semantic similarity features...
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 31.64it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 27.84it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 42.92it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 53.08it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 22.94it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
+Created 11 semantic features
+Creating subreddit risk features...
+Created 4 subreddit features
+Creating keyword features...
+Created 15 keyword features
+Creating keyword features...
+Created 15 keyword features
+Creating few-shot similarity features...
+Created 21 few-shot features
+Creating few-shot similarity features...
+Created 21 few-shot features
+Creating linguistic features...
+Created 8 linguistic features
+Creating linguistic features...
+Created 8 linguistic features
+Creating spam signal features...
+Created 9 spam features
+Creating spam signal features...
+Created 9 spam features
+Creating length ratio features...
+Created 10 length ratio features
+Creating length ratio features...
+Created 10 length ratio features
+Creating modal/question features...
+Created 9 modal/question features
+Creating modal/question features...
+Created 9 modal/question features
+Creating example agreement features...
+Created 4 example agreement features
+Creating example agreement features...
+Created 4 example agreement features
+
+======================================================================
+TOTAL ENGINEERED FEATURES: 91
+======================================================================
+
+
+Training LightGBM with 5-fold CV...
+  Fold 1 AUC: 0.848228
+  Fold 2 AUC: 0.814029
+  Fold 3 AUC: 0.839563
+  Fold 4 AUC: 0.837958
+  Fold 5 AUC: 0.819339
+
+Mean CV AUC: 0.831824 (+/- 0.012955)
+Overall CV AUC: 0.830153
+
+======================================================================
+FINAL RESULTS
+======================================================================
+Cross-Validation AUC: 0.830153
+Expected improvement: +0.1216 from baseline
+======================================================================
+

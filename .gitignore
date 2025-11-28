@@ -1,26 +1,15 @@
-# Data files
-*.csv
-data/
-open/
+# ===========================================
+# Jigsaw ACRC - Full Archive .gitignore
+# 모든 작업 파일 포함 (민감 정보만 제외)
+# ===========================================
 
-# API tokens and keys
+# API tokens and keys (민감 정보만 제외)
 *.env
 config.json
 kaggle.json
 .kaggle/
 
-# Submission files
-submissions/*.csv
-
-# Model files
-*.h5
-*.pkl
-*.pth
-*.bin
-*.safetensors
-models/
-
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -45,87 +34,22 @@ venv/
 env/
 ENV/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
 
-# PyCharm
+# IDE
 .idea/
-
-# VSCode
 .vscode/
 
-# MacOS
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
 desktop.ini
-
-# Logs
-*.log
 
 # Cache
 .cache/
 
-# ============================================
-# Portfolio-specific excludes
-# ============================================
-
-# Keep small submission.csv for demonstration
-!notebooks/tier1_v2_ultra_structured/tier1_v2_output/submission.csv
-
-# Exclude old project files not part of portfolio
-ANALYSIS_SUMMARY.md
-BASELINE_RESULTS.md
-COMPETITION_DETAILS.md
-COMPREHENSIVE_STRATEGY.md
-DEEP_DATA_ANALYSIS_REPORT.md
-EDA_INSIGHTS.md
-EXECUTIVE_SUMMARY.md
-IMPLEMENTATION_GUIDE.md
-KAGGLE_NOTEBOOK_GUIDE.md
-KAGGLE_SUBMISSION_CHECKLIST.md
-MASTER_EXECUTION_PLAN.md
-MODEL_RESULTS.md
-QUICK_REFERENCE.md
-README_BASELINE.md
-SETUP_GUIDE.md
-SUBMISSION_GUIDE.md
-
-# Exclude Python scripts (not part of main portfolio narrative)
-analyze_data.py
-baseline_model.py
-baseline_v2.py
-bert_model.py
-feature_engineering_quickstart.py
-kaggle_v14_feature_engineering.py
-setfit_model.py
-setfit_save_model.py
-
-# Exclude old directories
-baseline_*/
-setfit_*/
-submissions/
-v14_*/
-src/
-setfit_output/
-
-# Exclude old data files
-jigsaw-agile-community-rules.zip
-submission.csv
-submission_rank_ensemble.csv
-
-# Exclude old kernel metadata
-kernel-metadata.json
-kernel-metadata-baseline-*.json
-kernel-metadata-setfit.json
-kernel-metadata-v14.json
-
-# Exclude output directories not in notebooks/
-tier1_v2_output/
-qwen_tier1_v2/
-
-# Exclude logs
-*.log
-jigsaw-*.log
+# Git setup scripts (불필요)
+git_setup.sh
+github_upload.py

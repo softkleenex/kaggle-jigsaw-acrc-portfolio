@@ -1,0 +1,12 @@
+{
+  "id": "softkleenex/jigsaw-acrc-baseline",
+  "title": "Jigsaw ACRC Baseline v2",
+  "code_file": "kaggle_baseline_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "competition_sources": ["jigsaw-agile-community-rules"],
+  "kernel_sources": []
+}

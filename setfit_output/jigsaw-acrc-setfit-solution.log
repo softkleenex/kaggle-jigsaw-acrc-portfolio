@@ -1,0 +1,123 @@
+[{"stream_name":"stderr","time":8.86125326,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.861471944,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.861481692,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.861486119,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.575697016,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.575741252,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.575748552,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.575753925,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.856698957,"data":"Installing...\n"}
+,{"stream_name":"stdout","time":21.189715206,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 MB 4.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.342392076,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 89.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.393257796,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 MB 4.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.393298326,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 89.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.591985949,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 70.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.639503419,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.7/883.7 kB 33.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.795081506,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 70.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.795122385,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.7/883.7 kB 33.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":29.842210707,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 2.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":30.045346,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 2.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.130592387,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 2.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":35.333602815,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 2.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":37.203906713,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 5.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":37.4067989,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 5.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":38.662158465,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.9/127.9 MB 12.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":38.866150146,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.9/127.9 MB 12.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.198093995,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 7.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.395800548,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 81.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.400431816,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 7.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.400461841,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 81.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.44308646,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 564.3/564.3 kB 20.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":41.645745177,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 564.3/564.3 kB 20.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":96.858134552,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":96.858179033,"data":"datasets 4.1.1 requires pyarrow\u003e=21.0.0, but you have pyarrow 19.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":96.85818828,"data":"libcugraph-cu12 25.6.0 requires libraft-cu12==25.6.*, but you have libraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":96.858197314,"data":"gradio 5.38.1 requires pydantic\u003c2.12,\u003e=2.0, but you have pydantic 2.12.0a1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":96.858204527,"data":"pylibcugraph-cu12 25.6.0 requires pylibraft-cu12==25.6.*, but you have pylibraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":96.85821063,"data":"pylibcugraph-cu12 25.6.0 requires rmm-cu12==25.6.*, but you have rmm-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.063166985,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":97.063198283,"data":"datasets 4.1.1 requires pyarrow\u003e=21.0.0, but you have pyarrow 19.0.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.063205344,"data":"libcugraph-cu12 25.6.0 requires libraft-cu12==25.6.*, but you have libraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.063211325,"data":"gradio 5.38.1 requires pydantic\u003c2.12,\u003e=2.0, but you have pydantic 2.12.0a1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.06323328,"data":"pylibcugraph-cu12 25.6.0 requires pylibraft-cu12==25.6.*, but you have pylibraft-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":97.063238363,"data":"pylibcugraph-cu12 25.6.0 requires rmm-cu12==25.6.*, but you have rmm-cu12 25.2.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":97.361945532,"data":"Done!\n"}
+,{"stream_name":"stderr","time":120.008821237,"data":"2025-10-13 13:52:31.854489: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n"}
+,{"stream_name":"stderr","time":120.008868728,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":120.008876933,"data":"E0000 00:00:1760363552.093583      13 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n"}
+,{"stream_name":"stderr","time":120.00888352,"data":"E0000 00:00:1760363552.171057      13 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"}
+,{"stream_name":"stderr","time":120.218405126,"data":"2025-10-13 13:52:31.854489: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n"}
+,{"stream_name":"stderr","time":120.21843915,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":120.218445045,"data":"E0000 00:00:1760363552.093583      13 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n"}
+,{"stream_name":"stderr","time":120.218450471,"data":"E0000 00:00:1760363552.171057      13 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"}
+,{"stream_name":"stdout","time":138.120016544,"data":"OK\n"}
+,{"stream_name":"stdout","time":138.306179633,"data":"Loading data...\n"}
+,{"stream_name":"stdout","time":138.306212151,"data":"Train: 2029, Test: 10\n"}
+,{"stream_name":"stdout","time":138.306218671,"data":"Loading model...\n"}
+,{"stream_name":"stdout","time":149.105020977,"data":"Model loaded (dim=384)\n"}
+,{"stream_name":"stdout","time":149.306366334,"data":"Generating embeddings (this takes ~3 minutes)...\n"}
+,{"stream_name":"stdout","time":149.306409027,"data":"\n"}
+,{"stream_name":"stdout","time":149.30641605900001,"data":"[1/10] Train body\n"}
+,{"stream_name":"stdout","time":192.750155363,"data":"  -\u003e Shape: (2029, 384)\n"}
+,{"stream_name":"stdout","time":192.75020746,"data":"[2/10] Train pos1\n"}
+,{"stream_name":"stdout","time":232.368218833,"data":"[3/10] Train pos2\n"}
+,{"stream_name":"stdout","time":271.770814061,"data":"[4/10] Train neg1\n"}
+,{"stream_name":"stdout","time":305.605664924,"data":"[5/10] Train neg2\n"}
+,{"stream_name":"stdout","time":339.533643121,"data":"[6/10] Test body\n"}
+,{"stream_name":"stdout","time":339.852983138,"data":"[7/10] Test pos1\n"}
+,{"stream_name":"stdout","time":340.227604217,"data":"[8/10] Test pos2\n"}
+,{"stream_name":"stdout","time":340.227653105,"data":"[9/10] Test neg1\n"}
+,{"stream_name":"stdout","time":340.642027261,"data":"[10/10] Test neg2\n"}
+,{"stream_name":"stdout","time":340.946622056,"data":"\n"}
+,{"stream_name":"stdout","time":340.946655271,"data":"All embeddings generated! Shape: (2029, 384)\n"}
+,{"stream_name":"stdout","time":341.150767748,"data":"Computing similarity features...\n"}
+,{"stream_name":"stdout","time":341.15082518,"data":"\n"}
+,{"stream_name":"stdout","time":341.150831264,"data":"Train:\n"}
+,{"stream_name":"stdout","time":341.150835505,"data":"  0/2029\n"}
+,{"stream_name":"stdout","time":341.593095786,"data":"  500/2029\n"}
+,{"stream_name":"stdout","time":342.008627286,"data":"  1000/2029\n"}
+,{"stream_name":"stdout","time":342.41333239,"data":"  1500/2029\n"}
+,{"stream_name":"stdout","time":342.660220698,"data":"  2000/2029\n"}
+,{"stream_name":"stdout","time":342.660253371,"data":"\n"}
+,{"stream_name":"stdout","time":342.66025759,"data":"Test:\n"}
+,{"stream_name":"stdout","time":342.660260398,"data":"  0/10\n"}
+,{"stream_name":"stdout","time":342.660263002,"data":"\n"}
+,{"stream_name":"stdout","time":342.6602656,"data":"Done! Similarity features: (2029, 9)\n"}
+,{"stream_name":"stdout","time":342.680997401,"data":"Final: (2029, 393)\n"}
+,{"stream_name":"stdout","time":342.725508857,"data":"5-Fold CV\n"}
+,{"stream_name":"stdout","time":342.725539127,"data":"==================================================\n"}
+,{"stream_name":"stdout","time":342.725544252,"data":"\n"}
+,{"stream_name":"stdout","time":342.725548581,"data":"Fold 1/5\n"}
+,{"stream_name":"stdout","time":344.374848037,"data":"  AUC: 0.794005\n"}
+,{"stream_name":"stdout","time":344.374883714,"data":"\n"}
+,{"stream_name":"stdout","time":344.374889568,"data":"Fold 2/5\n"}
+,{"stream_name":"stdout","time":345.10177546,"data":"  AUC: 0.757451\n"}
+,{"stream_name":"stdout","time":345.101811735,"data":"\n"}
+,{"stream_name":"stdout","time":345.101816649,"data":"Fold 3/5\n"}
+,{"stream_name":"stdout","time":345.879224192,"data":"  AUC: 0.777549\n"}
+,{"stream_name":"stdout","time":345.879262033,"data":"\n"}
+,{"stream_name":"stdout","time":345.879268213,"data":"Fold 4/5\n"}
+,{"stream_name":"stdout","time":346.679514552,"data":"  AUC: 0.789260\n"}
+,{"stream_name":"stdout","time":346.67954672,"data":"\n"}
+,{"stream_name":"stdout","time":346.679551352,"data":"Fold 5/5\n"}
+,{"stream_name":"stdout","time":346.679555079,"data":"  AUC: 0.762355\n"}
+,{"stream_name":"stdout","time":346.679558545,"data":"\n"}
+,{"stream_name":"stdout","time":346.679562203,"data":"==================================================\n"}
+,{"stream_name":"stdout","time":346.679565909,"data":"Overall: 0.775916\n"}
+,{"stream_name":"stdout","time":346.679572012,"data":"Mean: 0.776124 ± 0.014370\n"}
+,{"stream_name":"stdout","time":346.711029234,"data":"Saved! Min: 0.1429, Max: 0.7830, Mean: 0.4566\n"}
+,{"stream_name":"stdout","time":346.711063661,"data":"   row_id  rule_violation\n"}
+,{"stream_name":"stdout","time":346.711070566,"data":"0    2029        0.294397\n"}
+,{"stream_name":"stdout","time":346.711075997,"data":"1    2030        0.603549\n"}
+,{"stream_name":"stdout","time":346.711081171,"data":"2    2031        0.726481\n"}
+,{"stream_name":"stdout","time":346.711086415,"data":"3    2032        0.363436\n"}
+,{"stream_name":"stdout","time":346.711092247,"data":"4    2033        0.674972\n"}
+,{"stream_name":"stderr","time":353.945380136,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":353.94542725,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":353.996291066,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":354.416248852,"data":"[NbConvertApp] Writing 146604 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":357.773409737,"data":"/usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":357.773462638,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":357.808964563,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":358.879412055,"data":"[NbConvertApp] Writing 419991 bytes to __results__.html\n"}
+]

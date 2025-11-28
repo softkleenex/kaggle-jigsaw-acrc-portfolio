@@ -1,0 +1,12 @@
+{
+  "id": "softkleenex/jigsaw-acrc-setfit-solution",
+  "title": "Jigsaw ACRC SetFit Solution",
+  "code_file": "kaggle_setfit_submission_v3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "competition_sources": ["jigsaw-agile-community-rules"],
+  "kernel_sources": []
+}
