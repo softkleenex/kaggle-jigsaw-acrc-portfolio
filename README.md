@@ -1,6 +1,6 @@
-<div align="center">
-
 # 🔍 Kaggle Jigsaw ACRC: Production ML & Debugging Case Study
+
+<div align="center">
 
 > **"Beyond the Leaderboard: A Deep Dive into LoRA Compatibility & Systemic Debugging"**
 
