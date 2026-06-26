@@ -64,3 +64,11 @@ Instead of blind trial-and-error, I implemented a **Time-boxed, Hypothesis-drive
 1. **For Technical Depth:** Start with [`docs/FAILURE_ANALYSIS.md`](docs/FAILURE_ANALYSIS.md) to review the debugging methodology.
 2. **For Engineering:** Review [`src/baseline_model.py`](src/baseline_model.py) for the structured TF-IDF implementation.
 3. **For Infrastructure:** See [`PORTFOLIO_REQUIREMENTS.txt`](PORTFOLIO_REQUIREMENTS.txt) for the exact CUDA/GPU environment specs.
+
+<!-- BLOG-URL:START -->
+
+## Blog
+
+- Blog note: [🔍 Kaggle Jigsaw ACRC: Production ML & Debugging Case Study](https://softkleenex.github.io/coding_training/kaggle/kaggle-jigsaw-acrc-portfolio)
+
+<!-- BLOG-URL:END -->
